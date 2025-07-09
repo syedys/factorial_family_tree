@@ -1,2 +1,25 @@
-# factorial_family_tree
-A simple Python script demonstrating recursion through a family tree structure. The task is to recursively collect all names of children and descendants from a nested dictionary representing a family hierarchy.
+# 🧬 Family Tree Recursion Challenge
+
+This is a simple Python exercise to practice recursion using a nested dictionary that represents a family tree. The goal is to complete the `get_all_children_names` function, which recursively collects all names of children and their descendants.
+
+---
+
+## 📂 Project Structure
+
+```python
+person = {
+    "name": "John",
+    "children": [
+        {
+            "name": "Jim",
+            "children": [
+                {"name": "Liam", "children": []},
+                {"name": "Ella", "children": []}
+            ]
+        },
+        {
+            "name": "Zoe",
+            "children": []
+        }
+    ]
+}
